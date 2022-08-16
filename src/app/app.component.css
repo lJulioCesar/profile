@@ -1,0 +1,80 @@
+
+.container-geral{
+    position: relative;
+    padding: 5px;
+    background: #fff;
+    width: 380px;
+    height: 580px;
+    margin: 6% auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#Nome{
+    position: relative;
+    top: 20px;
+}
+
+.icon-container{
+    display: flex;
+    border-top: 1px solid #dfdfdf;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-info{
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.icon{
+    color:#6666ff;
+
+}
+
+.infos{
+    background-color: #fff;
+    margin: 40px 20px;
+}
+
+.container-geral img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.biografia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+
+.biografia p{
+    margin-top: 20px;
+}
+
+.btn-chat{
+  width: 45%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #6666ff, #7B68EE);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: #fff;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+}
+
+#icon-chat{
+    font-size: 25px;
+    margin-right: 10px;
+}
